@@ -44,9 +44,9 @@ function IlPostino() {
             <section className="story section container">
                 <h2>La historia detrás del mensaje</h2>
                 <div className="story-content">
-                    <p>Todo comenzó en una noche. La nueva normalidad de las IA nos permitió construir esto: yo y mis agentes armando el sistema en horas.</p>
-                    <p>El nombre, <em>ilpostino_bot</em>, nació casi por accidente, de un error tipográfico en el primer nombre que utilicé. Pero la serendipia hizo lo suyo: <strong>Il Postino</strong> (El Cartero de Neruda) es una película fantástica sobre la metáfora, la poesía y la entrega de mensajes. Era el nombre perfecto. Le dedico este proyecto a mi profesora de literatura, Susana Salas, por su cariño de siempre.</p>
-                    <p>Y un agradecimiento especial a Annie y Nico, los primeros usuarios valientes que probaron esta idea.</p>
+                    <p>Todo comenzó en una noche. La nueva normalidad de las IA nos permitió construir esto: mis agentes y yo armando el sistema en horas.</p>
+                    <p>El nombre, <em>ilpostino_bot</em>, surgió a raíz de un error tipográfico en el primer nombre que utilicé. La idea de rebautizarlo así fue de Nico, y yo la adopté de inmediato. <strong>Il Postino</strong> (El Cartero de Neruda) es una película fantástica sobre la metáfora, la poesía y la entrega de mensajes, que me recordó profundamente a mi profesora de literatura, Susana Salas, a quien le dedico el nombre de esta aplicación por su cariño de siempre.</p>
+                    <p>Un agradecimiento inmenso a Nico por la idea, y a Annie, la primera usuaria valiente de la app.</p>
                 </div>
             </section>
 
