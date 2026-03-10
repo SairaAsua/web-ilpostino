@@ -7,7 +7,7 @@ import './index.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/web-ilpostino">
       <div className="app">
         <Navigation />
         <Routes>
