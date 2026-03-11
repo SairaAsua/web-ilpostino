@@ -3,6 +3,9 @@ import React from 'react';
 function Home() {
     return (
         <div className="home-page section container">
+            <div className="hero-banner" style={{ textAlign: 'center', marginBottom: '2rem' }}>
+                <img src={`${import.meta.env.BASE_URL}images/hero-cover-1.png`} alt="Hero Cover" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }} />
+            </div>
             <div className="stamp-border">
                 <h1>La nueva normalidad de las IA</h1>
                 <p className="subtitle">

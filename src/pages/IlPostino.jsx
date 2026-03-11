@@ -5,13 +5,13 @@ function IlPostino() {
         <>
             <header className="hero section container">
                 <div className="hero-content">
-                    <h1>ilpostino_bot</h1>
+                    <h1>@journalBord_bot</h1>
                     <h2>Tu rincón en internet.</h2>
                     <p className="subtitle">
                         Escribamos un nuevo verso para tu historia. ¿Qué quieres que el mundo lea hoy?
                     </p>
                     <div className="hero-actions">
-                        <a href="https://t.me/ilpostino_bot" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                        <a href="https://t.me/journalBord_bot" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                             Ir al Bot de Telegram
                         </a>
                         <a href="https://cafecito.app/ilpostino_bot" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
@@ -28,7 +28,7 @@ function IlPostino() {
                     <h2>Manifiesto: El Mensaje que Eres</h2>
                     <p>El mundo se ha llenado de ruido, pero se ha olvidado de los mensajes.</p>
                     <p>Hoy, nuestra identidad digital está dispersa en fragmentos: un perfil rígido que no nos representa, una red social que nos consume, un currículum que parece un formulario de oficina. Hemos perdido la capacidad de contar quiénes somos con la belleza que merecemos.</p>
-                    <p><strong>ilpostino_bot</strong> nace en esa intersección entre la tecnología y la poesía. Inspirado en la figura del cartero que recorría las costas de Isla Negra para entregar versos, nosotros recorremos los bits para entregar tu identidad.</p>
+                    <p><strong>@journalBord_bot</strong> nace en esa intersección entre la tecnología y la poesía. Inspirado en la figura del cartero que recorría las costas de Isla Negra para entregar versos, nosotros recorremos los bits para entregar tu identidad.</p>
                     <ul>
                         <li><strong>No somos solo un bot de Telegram;</strong> somos tu mensajero personal.</li>
                         <li><strong>Somos la evolución del currículum:</strong> Porque tu trayectoria no es una lista de fechas, es una narrativa viva.</li>

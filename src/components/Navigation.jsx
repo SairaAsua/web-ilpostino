@@ -5,7 +5,10 @@ function Navigation() {
     const location = useLocation();
 
     return (
-        <nav className="navigation container">
+        <nav className="navigation container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Link to="/" className="nav-logo" style={{ display: 'flex', alignItems: 'center' }}>
+                <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Il Postino Logo" style={{ height: '50px' }} />
+            </Link>
             <div className="nav-links">
                 <Link
                     to="/"
