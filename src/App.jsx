@@ -15,7 +15,7 @@ function App() {
           <Route path="/ilpostino" element={<IlPostino />} />
         </Routes>
         <footer className="footer section container" style={{ textAlign: 'center', opacity: 0.7, marginTop: '2rem' }}>
-          <p>© 2026 @journalBord_bot. Tu rincón en internet.</p>
+          <p>© 2026 @ilpostino_bot. Tu rincón en internet.</p>
         </footer>
       </div>
     </Router>
