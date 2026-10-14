@@ -42,7 +42,8 @@ function card(slide, index) {
   if (slide.visual === 'contact') visual.append(node('span', 'contact-label', 'Conocé el proyecto'), node('p', 'contact-link', campaign.contact), node('span', 'contact-note', 'Homemaker · un proyecto de Annie y Oliva'))
   panel.append(visual)
   const footer = node('footer', 'card-footer')
-  footer.append(node('span', 'status', campaign.availability), node('span', 'page-number', `${index + 1} / ${campaign.slides.length}`))
+  const pageNumber = format === 'story' ? `${[0, 2, 5].indexOf(index) + 1} / 3` : format === 'square' ? campaign.contact : `${index + 1} / ${campaign.slides.length}`
+  footer.append(node('span', 'status', campaign.availability), node('span', 'page-number', pageNumber))
   panel.append(footer)
   return panel
 }

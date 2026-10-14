@@ -39,6 +39,19 @@ It can export website screenshots, social images and a selectable-text carousel 
 as a 14-day CI artifact after a maintainer installs the workflow. The current
 GitHub connection has no `workflow` scope, so no review workflow is installed. No bot, social account or private home is contacted.
 
+## Export without a browser
+
+```sh
+python -m pip install -r requirements-export.txt
+python scripts/render_campaign_static.py --output qa-artifacts/social-static
+python scripts/make_reel.py --frames qa-artifacts/social-static/frames --output qa-artifacts/social-static/reel-ilpostino-30s.mp4
+```
+
+The static export uses WeasyPrint/PyMuPDF for exact typography, selected assets,
+PDF and 1080px raster files. It is a graphics export and does not claim browser QA
+of the website. FFmpeg encodes the six selected frames into a silent 30-second
+H.264 clip. Originals, text and editable source remain available.
+
 ## Campaign source
 
 `social/campaign.json` owns the exact Spanish copy. `social/index.html`,

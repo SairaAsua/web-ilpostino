@@ -30,3 +30,16 @@ The social campaign is generated from exact editable text with a visible
 video/package evidence accompany the campaign handoff. Public launch materials
 use the existing contact `https://t.me/sairaasua` while the product journey is
 being integrated.
+
+## Campaign export observed
+
+The browser-independent export produced all six 1080×1350 carousel slides, three
+1080×1920 stories, one 1080×1080 post and six 1080×1920 reel frames. The six-page
+PDF retains selectable text. Exact titles, development labels, page count and
+output dimensions were verified; all carousel pages and portrait/square samples
+were visually inspected. This evidence comes from the HTML/PDF graphics renderer,
+not a simulated browser session. Delivery records retain the actual renderer,
+asset hashes, selected public CTA and final MP4 qualification.
+
+The campaign is a presentation of a product in development. It contains no
+private workshop/source catalog or fabricated deployed-session screenshot.

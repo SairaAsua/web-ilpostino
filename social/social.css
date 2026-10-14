@@ -34,6 +34,7 @@ body { margin: 0; background: #f9f7f1; color: #152057; font-family: Inter, sans-
 .story .title, .reel .title { font-size: 114px; }
 .story .body-copy, .reel .body-copy { font-size: 44px; }
 .story .card-header, .reel .card-header { margin-bottom: 60px; }
+.story .card-footer, .reel .card-footer { position: absolute; bottom: 230px; left: 72px; right: 72px; }
 .square .social-card { height: 1080px; padding: 52px 64px; }
 .square .card-header { margin-bottom: 30px; padding-bottom: 22px; }
 .square .title { font-size: 94px; }
