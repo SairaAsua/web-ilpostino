@@ -1,0 +1,55 @@
+{
+  "campaign": "Il Postino · Tu historia tiene casa",
+  "availability": "En desarrollo",
+  "contact": "t.me/sairaasua",
+  "slides": [
+    {
+      "title": "Tu historia\ntiene casa.",
+      "kicker": "Il Postino + Homemaker",
+      "text": "De una conversación a un rincón propio en internet.",
+      "visual": "landscape",
+      "reel": "Tu contenido, tu diseño y un lugar para seguir contando.",
+      "alt": "Portada color papel con título Tu historia tiene casa, Il Postino + Homemaker y una ilustración postal junto al mar. Indica que el producto está en desarrollo."
+    },
+    {
+      "title": "Vos traés\nel mensaje.",
+      "kicker": "01 · El contenido",
+      "text": "Tu presentación. Tus proyectos. Tu bitácora.\n\nTexto, fotos, audio y video en un borrador privado.",
+      "visual": "letter",
+      "reel": "Tu presentación, tus proyectos y tu bitácora. Un borrador privado al que podés volver.",
+      "alt": "Lámina sobre el contenido: presentación, proyectos, bitácora y archivos en un borrador privado. Il Postino está en desarrollo."
+    },
+    {
+      "title": "Homemaker\npone la casa.",
+      "kicker": "02 · La apariencia",
+      "text": "Doce mundos visuales. Colores, letras y espacios que podés combinar.",
+      "visual": "recipe",
+      "reel": "Doce mundos visuales para elegir la apariencia de tu casa.",
+      "alt": "Lámina de Homemaker, el taller de diseño con doce mundos visuales. Muestra ingredientes: color, letras, espacios e historia. El recorrido completo está en desarrollo."
+    },
+    {
+      "title": "Primero lo ves.\nDespués elegís.",
+      "kicker": "03 · El recorrido",
+      "text": "Revisás el resultado y elegís quién puede verlo.",
+      "visual": "steps",
+      "reel": "Borrador. Diseño. Vista previa. Audiencia y publicación en tu home.",
+      "alt": "Lámina del recorrido: borrador privado, diseño elegido, vista previa y audiencia y publicación. El producto está en desarrollo."
+    },
+    {
+      "title": "La historia\nsigue abierta.",
+      "kicker": "04 · La continuidad",
+      "text": "Sumás una entrada. Compartís una foto. Cambiás el diseño sin empezar de cero tu relato.",
+      "visual": "journal",
+      "reel": "Cambiás la apariencia. Conservás tu historia y las direcciones de tus entradas.",
+      "alt": "Lámina de continuidad con una entrada ficticia titulada Hoy abrimos las ventanas. Explica que cambiar el diseño conserva la historia. Il Postino está en desarrollo."
+    },
+    {
+      "title": "Estamos\nconstruyéndolo.",
+      "kicker": "Una invitación",
+      "text": "El recorrido completo está en integración.\n\n¿Te interesa el proyecto? Conversá con Saira.",
+      "visual": "contact",
+      "reel": "El recorrido completo está en desarrollo. Conocé el proyecto: t.me/sairaasua",
+      "alt": "Invitación a conocer Il Postino y Homemaker. El recorrido completo está en integración. Contacto en Telegram: t.me/sairaasua."
+    }
+  ]
+}
