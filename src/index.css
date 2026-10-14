@@ -122,6 +122,7 @@ img { display: block; max-width: 100%; height: auto; }
 .text-link { display: inline-block; margin-top: 1.25rem; font-size: 1rem; }
 .site-footer { background: var(--ink); color: var(--paper); padding-block: 3rem; }
 .site-footer a { color: var(--paper); }
+.site-footer a:focus-visible { outline-color: var(--yellow); }
 .footer-content { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
 .footer-brand { font-family: var(--serif); font-size: 2rem; text-decoration: none; }
 .site-footer p { font-size: .875rem; color: #d0d3df; margin-top: .3rem; }
