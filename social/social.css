@@ -1,0 +1,48 @@
+@font-face { font-family: Inter; src: url('../public/fonts/inter.ttf') format('truetype'); font-weight: 100 900; font-display: block; }
+@font-face { font-family: 'Playfair Display'; src: url('../public/fonts/playfair-display.ttf') format('truetype'); font-weight: 400 900; font-display: block; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f9f7f1; color: #152057; font-family: Inter, sans-serif; }
+.social-card { position: relative; width: 1080px; height: 1350px; padding: 64px 72px; overflow: hidden; background: #f9f7f1; display: flex; flex-direction: column; }
+.card-header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #d0cbbd; padding-bottom: 26px; margin-bottom: 52px; gap: 30px; }
+.wordmark { font-family: 'Playfair Display', Georgia, serif; font-size: 48px; font-weight: 600; letter-spacing: -2px; white-space: nowrap; }
+.edition { font-size: 26px; line-height: 1.5; }
+.kicker { font-size: 28px; text-transform: uppercase; letter-spacing: 2px; font-weight: 500; margin: 0 0 28px; }
+.title { white-space: pre-line; font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 104px; letter-spacing: -4px; line-height: 1.1; margin: 0; }
+.body-copy { white-space: pre-line; font-size: 39px; line-height: 1.48; margin: 32px 0; max-width: 930px; }
+.visual { flex: 1; min-height: 0; margin-top: 8px; margin-bottom: 30px; }
+.landscape-image { display: block; width: 100%; height: 100%; max-height: 415px; object-fit: cover; object-position: center; border: 2px solid #d0cbbd; }
+.card-footer { margin-top: auto; border-top: 2px solid #d0cbbd; padding-top: 24px; display: flex; justify-content: space-between; align-items: center; font-size: 28px; }
+.status { display: inline-block; padding: 9px 16px; background: #fdd835; color: #152057; font-size: 28px; line-height: 1.25; }
+.recipe, .journal, .letter, .contact { background: #eee7d5; padding: 32px 40px; border: 2px dashed #9c9789; }
+.recipe-row { display: flex; justify-content: space-between; gap: 30px; padding: 13px 0; border-bottom: 2px solid #ccc3af; font-size: 36px; }
+.recipe-row:last-child { border-bottom: 0; }
+.recipe-key { color: #535763; }
+.recipe-value { font-weight: 500; }
+.step-row { display: flex; gap: 28px; align-items: center; font-size: 37px; padding: 16px 0; border-top: 2px solid #d0cbbd; }
+.step { background: #152057; color: #fdd835; font-size: 28px; min-width: 58px; padding: 9px; text-align: center; }
+.note-label { display: block; font-size: 26px; text-transform: uppercase; letter-spacing: 1px; }
+.journal h2 { font-family: 'Playfair Display', serif; font-size: 52px; line-height: 1.2; font-weight: 500; margin: 22px 0; }
+.journal p { font-size: 32px; line-height: 1.45; margin: 0; }
+.letter-message { white-space: pre-line; font-family: 'Playfair Display', serif; font-size: 43px; line-height: 1.3; margin: 20px 0; }
+.signature { display: block; font-family: 'Playfair Display', serif; font-size: 38px; text-align: right; }
+.contact-label { display: block; font-size: 30px; }
+.contact-link { font-family: 'Playfair Display', serif; font-size: 62px; margin: 24px 0; }
+.contact-note { display: block; font-size: 26px; line-height: 1.4; }
+.story .social-card, .reel .social-card { height: 1920px; padding-top: 170px; padding-bottom: 230px; }
+.story .visual, .reel .visual { flex: none; margin-top: 45px; margin-bottom: 48px; }
+.story .visual.landscape, .reel .visual.landscape { height: 440px; }
+.story .title, .reel .title { font-size: 114px; }
+.story .body-copy, .reel .body-copy { font-size: 44px; }
+.story .card-header, .reel .card-header { margin-bottom: 60px; }
+.story .card-footer, .reel .card-footer { position: absolute; bottom: 230px; left: 72px; right: 72px; }
+.square .social-card { height: 1080px; padding: 52px 64px; }
+.square .card-header { margin-bottom: 30px; padding-bottom: 22px; }
+.square .title { font-size: 94px; }
+.square .kicker { margin-bottom: 22px; }
+.square .body-copy { font-size: 34px; margin: 24px 0; }
+.square .visual.landscape { min-height: 170px; }
+.square .card-footer { padding-top: 20px; }
+.document .social-card { break-after: page; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+.document .social-card:last-child { break-after: auto; }
+@page { size: 1080px 1350px; margin: 0; }
+@media print { body { margin: 0; } }

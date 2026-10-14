@@ -1,0 +1,38 @@
+{
+  "notes": "Delivery resizing/compression of existing selected brand assets; originals retained unchanged.",
+  "images": [
+    {
+      "source": "hero-cover-2.png",
+      "target": "postal-landscape.webp",
+      "dimensions": [
+        1600,
+        529
+      ],
+      "source_sha256": "c1ca225e8b5430001214b6e5f1e9c5fb025b722e53d6eb2dee812d4491293dec",
+      "output_sha256": "6c11241bfe8b155f48935ab2dbf89b4bf289d262fcdb9d303f7a7be9909a85e8",
+      "bytes": 96884
+    },
+    {
+      "source": "hero-cover-1.png",
+      "target": "origin-landscape.webp",
+      "dimensions": [
+        1600,
+        529
+      ],
+      "source_sha256": "7c99e21805f2e5564633f17a13f8a1ebe51ed29d96d1bbab2633b359f45b0e50",
+      "output_sha256": "7a957b6a374507abf903b33d7c75be52799d8a78ea56d1a88180d9858debcbd6",
+      "bytes": 112378
+    },
+    {
+      "source": "logo.png",
+      "target": "original-mark.webp",
+      "dimensions": [
+        720,
+        393
+      ],
+      "source_sha256": "1188b0f79af5865ca28378bc9c57655989922df84747763ce3c6c0a9c797b66a",
+      "output_sha256": "b12ec912fc0d2071250a319f6bb50ca4256745117252cd2d6c6130c0f2fe52ab",
+      "bytes": 16792
+    }
+  ]
+}
